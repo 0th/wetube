@@ -27,7 +27,7 @@ app.use(localMiddleware);
 
 
 app.use(routes.home, globalRouter);
-app.use(routes.usrs, userRouter);
+app.use(routes.users, userRouter);
 app.use(routes.videos, videoRouter);
 
 

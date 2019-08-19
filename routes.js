@@ -5,8 +5,8 @@ const LOGOUT = "/logout";
 const SEARCH = "/search";
 
 const USERS = "/users";
-const USER_DETAILS = "/:id";
 const EDIT_PROFILE = "/edit-profile";
+const USER_DETAILS = "/:id";
 const CHANGE_PASSWORD = "/change-password";
 
 
@@ -23,10 +23,10 @@ const routes = {
     login: LOGIN,
     logout: LOGOUT,
     search: SEARCH,
-    usrs: USERS,
-    user_details : USER_DETAILS,
-    edit_profile : EDIT_PROFILE,
-    change_password : CHANGE_PASSWORD,
+    users: USERS,
+    userDetails : USER_DETAILS,
+    editProfile : EDIT_PROFILE,
+    changePassword : CHANGE_PASSWORD,
     videos : VIDEOS,
     upload : UPLOAD,
     video_details: VIDEO_DETAILS,
