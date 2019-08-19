@@ -29,9 +29,9 @@ const routes = {
     changePassword : CHANGE_PASSWORD,
     videos : VIDEOS,
     upload : UPLOAD,
-    video_details: VIDEO_DETAILS,
-    edit_videos: EDIT_VIDEOS,
-    delete_videos: DELETE_VIDEO
+    videoDetails: VIDEO_DETAILS,
+    editVideos: EDIT_VIDEOS,
+    deleteVideos: DELETE_VIDEO
 }
 
 
