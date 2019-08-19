@@ -1,0 +1,38 @@
+const HOME = "/";
+const JOIN = "/join";
+const LOGIN = "/login";
+const LOGOUT = "/logout";
+const SEARCH = "/search";
+
+const USERS = "/users";
+const USER_DETAILS = "/:id";
+const EDIT_PROFILE = "/edit-profile";
+const CHANGE_PASSWORD = "/change-password";
+
+
+const VIDEOS = "/videos";
+const UPLOAD = "/upload";
+const VIDEO_DETAILS = "/:id";
+const EDIT_VIDEOS = "/:id/eidt";
+const DELETE_VIDEO = "/:id/delete";
+
+
+const routes = {
+    home: HOME,
+    join:  JOIN,
+    login: LOGIN,
+    logout: LOGOUT,
+    search: SEARCH,
+    usrs: USERS,
+    user_details : USER_DETAILS,
+    edit_profile : EDIT_PROFILE,
+    change_password : CHANGE_PASSWORD,
+    videos : VIDEOS,
+    upload : UPLOAD,
+    video_details: VIDEO_DETAILS,
+    edit_videos: EDIT_VIDEOS,
+    delete_videos: DELETE_VIDEO
+}
+
+
+export default routes;
