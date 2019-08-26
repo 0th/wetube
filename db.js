@@ -6,7 +6,7 @@ export const videos = [
         title: "youngsu awesome",
         description: "this is something i love",
         views: 144,
-        videoFIle: "https://archive.org/details/BigBuckBunny_124",
+        videoFIle: "https://ia800300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
             creator: {
                 name: "youngsu",
                 email: "itchs@naver.com",
@@ -18,7 +18,7 @@ export const videos = [
         title: "haesoo awesome",
         description: "this is something i love",
         views: 144,
-        videoFIle: "https://archive.org/details/BigBuckBunny_124",
+        videoFIle: "https://ia800300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
             creator: {
                 name: "youngsu",
                 email: "itchs@naver.com",
@@ -30,7 +30,7 @@ export const videos = [
         title: "joeun awesome",
         description: "this is something i love",
         views: 144,
-        videoFIle: "https://archive.org/details/BigBuckBunny_124",
+        videoFIle: "https://ia800300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
             creator: {
                 name: "youngsu",
                 email: "itchs@naver.com",
@@ -42,7 +42,7 @@ export const videos = [
         title: "zoa awesome",
         description: "this is something i love",
         views: 144,
-        videoFIle: "https://archive.org/details/BigBuckBunny_124",
+        videoFIle: "https://ia800300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
             creator: {
                 name: "youngsu",
                 email: "itchs@naver.com",

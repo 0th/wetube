@@ -1,2 +1,7 @@
+
 mixin videoBlock(video={})
-    h1= video.title
+   .videoBlock
+        video.vidoeBlock__thumbnail(src=video.videoFIle, controls= true)
+        h4.vidoeBlock__title= video.title
+        h6.videoBlcok__views= video.views
+        
