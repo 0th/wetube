@@ -2,7 +2,7 @@ extends layouts/main
 
 block content
     .form-container
-        form(action=routes.editVideo, method="post")
+        form(action=`/video${routes.upload}`, method="post")
             lavel(for="avatar") Video File
             input(type="file", id="avatar", name="Choose file")
             input(type="text", placeholder="Title", name="title" )
