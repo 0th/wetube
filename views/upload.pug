@@ -2,10 +2,10 @@ extends layouts/main
 
 block content
     .form-container
-        form(action=`/video${routes.upload}`, method="post")
+        form(action=`/video${routes.upload}`, method="post", enctype="multipart/form-data")
             lavel(for="avatar") Video File
-            input(type="file", id="avatar", name="Choose file")
-            input(type="text", placeholder="Title", name="title" )
-            input(type="text", placeholder="Description", name="description")
+            input(type="file", id="file", name="vidoeFile", required= true, accept="video/*")
+            input(type="text", placeholder="Title", name="title", required= true )
+            input(type="text", placeholder="Description", name="description", required= true)
             input(type="submit", value="upate video")
 

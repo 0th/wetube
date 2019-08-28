@@ -13,7 +13,6 @@ import routes from './routes';
 import videoRouter from './routers/videoRouter';
 
 
-
 const app = express();
 
 
@@ -24,7 +23,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(logger("dev"));
 app.use(helmet());
 app.use(localMiddleware);
-
 
 app.use(routes.home, globalRouter);
 app.use(routes.users, userRouter);
